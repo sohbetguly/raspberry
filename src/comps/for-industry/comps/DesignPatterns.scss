@@ -1,0 +1,17 @@
+.design-patterns {
+  margin: auto;
+  padding: 0.5rem;
+  div {
+    max-width: 1000px;
+  }
+}
+
+.integrated-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  min-height: 300px;
+}

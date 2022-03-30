@@ -1,0 +1,31 @@
+.darkblue {
+  background-color: rgb(34, 34, 214);
+}
+.privacy {
+  margin: auto;
+  max-width: 600px;
+  padding: 0.5rem;
+  ul {
+    font-size: 1rem;
+    li {
+      list-style-type: disc;
+    }
+  }
+  h4 {
+    margin-top: 1rem;
+  }
+  hr {
+    border: 1px solid black;
+  }
+  table {
+    caption-side: top;
+    caption {
+      color: black;
+      font-weight: 700;
+    }
+    td {
+      border: 1px solid rgb(224, 224, 224);
+      padding: 1rem 6px;
+    }
+  }
+}

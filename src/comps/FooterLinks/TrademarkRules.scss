@@ -1,0 +1,21 @@
+.trademark-rules {
+  margin: auto;
+  max-width: 600px;
+  padding: 0.5rem;
+  .text-danger {
+    font-weight: 700;
+  }
+  // p {
+  //   font-weight: 400;
+  // }
+  table {
+    border-collapse: collapse;
+
+    tr {
+      // padding: 1rem;
+      td {
+        padding: 0.8rem;
+      }
+    }
+  }
+}

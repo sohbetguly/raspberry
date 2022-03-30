@@ -1,0 +1,35 @@
+.row .image {
+  height: fit-content;
+}
+
+.put-end {
+  position: absolute;
+  right: 100;
+  top: 100;
+}
+
+.text-end {
+  position: relative;
+}
+
+.padding-left {
+  padding-left: 2%;
+}
+
+.row .gap-items {
+  position: relative;
+  background-color: rgb(246, 246, 246);
+  gap: 1rem !important;
+  justify-content: center;
+}
+
+.btn-container {
+  justify-content: right;
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+}
+
+.flex-column .par {
+  padding-bottom: 1.8rem;
+}

@@ -1,0 +1,112 @@
+.products {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.products a {
+  text-decoration: none;
+  color: black;
+  margin: 2rem 0;
+  transition: 0.5s ease;
+  min-width: 250px;
+}
+.products a:hover {
+  color: black;
+  transform: scale(1.01);
+  box-shadow: 0 0 20px 0.5px;
+}
+
+.border-shadow {
+  box-shadow: 0 0 0px 0.1px;
+  border-radius: 0.5rem;
+}
+
+.green-button {
+  background-color: rgb(7, 209, 7);
+  color: white;
+  padding: 0.5em 1rem;
+  font-weight: 700;
+  text-shadow: 0 0 5px 1px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.col-md-6 {
+  padding: 0 !important;
+}
+
+.green-button:hover {
+  background-color: rgb(70, 70, 70);
+  transition: 0.3s;
+}
+
+.button-container {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+/* Products */
+
+.products .main-title {
+  font-weight: 700;
+}
+
+.raspberry-400 img {
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.back-img {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.raspberry-400-title {
+}
+
+.raspberry-400-title h1 {
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+.raspberry-400-title p {
+  font-size: 20px;
+}
+
+.products .raspberry-400-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.products .raspberry-400-title .text-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 90%;
+  justify-content: center;
+}
+
+.first-button {
+  padding: 0.7rem 2rem;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .raspberry-400 img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+  }
+}
+
+/* End of Products */
+
+/* Pico And Pi 4 */
+
+/* End of Pico And Pi 4 */
