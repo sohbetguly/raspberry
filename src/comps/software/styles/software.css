@@ -1,0 +1,123 @@
+/* Global */
+section,
+div {
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  font-size: 1.4rem;
+}
+
+/* End of Global */
+
+/* Main  */
+.OS-main {
+  height: 400px;
+}
+
+.OS-main .title-container h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-size-adjust: 5em;
+  color: rgb(211, 36, 71);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.OS-main .title-container p {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .OS-main .title-container h1 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .OS-main .title-container h1 {
+    font-size: 7vw;
+  }
+
+  .OS-main .title-container p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .OS-main {
+    margin-left: 1px;
+  }
+  .OS-main .title-container h1 {
+    font-size: 7vw;
+  }
+
+  .OS-main .title-container p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .OS-main {
+    height: 300px;
+  }
+  .OS-main .title-container h1 {
+    font-size: 9vw;
+  }
+  .OS-main .title-container p {
+    font-size: 0.8em;
+  }
+}
+/* End of Main  */
+
+/* Imager */
+
+.imager {
+  background-color: rgb(235, 243, 242);
+}
+
+.imager .main-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.imager .imager-par {
+  font-size: 1.3rem;
+}
+
+.imager .link {
+  font-size: 0.9em;
+}
+
+.imager .link:hover {
+  color: red;
+}
+
+.intro-install {
+  max-width: 305px;
+  min-width: 200px;
+  background-color: white;
+  padding: 1em;
+}
+
+.intro-install .black-back {
+  background-color: rgb(119, 119, 119);
+  color: white;
+  padding: 2px 0;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 370px) {
+  .intro-install h6 {
+    font-size: 4vw;
+  }
+}
+@media screen and (min-width: 425px) {
+  .imager {
+    padding: 0;
+  }
+}
+
+/* End of Imager */

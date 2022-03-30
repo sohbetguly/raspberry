@@ -1,0 +1,24 @@
+.inst-intro {
+  min-height: 350px;
+}
+.doc-link {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(80, 80, 161);
+  padding: 0.7rem 1rem;
+  transition: 0.2s;
+}
+.doc-link:hover {
+  background-color: #cd2355;
+  transform: scale(1.05);
+  color: white;
+}
+
+.inst-intro p {
+  font-size: 1.2rem;
+}
+
+.inst-intro h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

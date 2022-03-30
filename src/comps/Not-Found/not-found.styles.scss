@@ -1,0 +1,28 @@
+.not-found {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    background-color: rgb(49, 95, 180);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    transition: 0.5s ease;
+    margin-top: 1rem;
+    &:focus,
+    &:visited {
+      color: white;
+    }
+    &:hover {
+      background-color: rgb(38, 77, 149);
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,11 @@
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  background-color: #444444;
+  color: white !important;
+  border: none;
+}

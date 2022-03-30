@@ -1,0 +1,21 @@
+.help-section {
+  min-height: 500px;
+  background-color: rgb(55, 55, 141);
+}
+.help-section div {
+  background-color: white;
+}
+
+.help-section ul {
+  padding: 0;
+}
+
+.help-section ul a {
+  font-size: 1.3rem;
+}
+.help-section ul a:hover {
+  color: red;
+}
+.help-section ul li {
+  padding-top: 1rem;
+}
