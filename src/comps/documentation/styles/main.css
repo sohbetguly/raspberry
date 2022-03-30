@@ -1,0 +1,25 @@
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: none;
+}
+.main-section {
+  background-color: rgb(51, 51, 51);
+  height: 330px;
+}
+
+.main-title-container {
+  text-align: center;
+}
+.main-title-container a {
+  font-size: 2.5rem;
+  color: white;
+}
+.main-title-container a:hover {
+  color: white;
+}
+.main-title-container p {
+  font-size: 1.5rem;
+  color: white;
+}

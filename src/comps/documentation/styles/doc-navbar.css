@@ -1,0 +1,45 @@
+.doc-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.doc-navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.doc-navbar li {
+  padding: 2rem 5rem;
+  border-bottom: 5px solid white;
+  margin: 2px;
+  padding-bottom: 7px;
+}
+
+.doc-navbar ul .active {
+  border-color: rgb(204, 7, 99);
+}
+
+.doc-navbar li a {
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .doc-navbar li a {
+    font-size: 1rem;
+  }
+  .doc-navbar li {
+    padding: 1rem 3rem;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .doc-navbar li a {
+    font-size: 0.8rem;
+  }
+  .doc-navbar li {
+    padding: 1rem 1.5rem;
+    margin: 1px;
+  }
+}

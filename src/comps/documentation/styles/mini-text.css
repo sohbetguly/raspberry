@@ -1,0 +1,12 @@
+.mini-text p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  margin: 0;
+}
+.mini-text a {
+  color: rgb(184, 43, 43);
+}
+
+.mini-text a:hover {
+  text-decoration: underline;
+}

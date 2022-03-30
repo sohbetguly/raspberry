@@ -1,0 +1,13 @@
+.doc-item  {
+    color: black;
+    text-align: center;
+}
+.doc-item:hover  {
+    color: black;
+}
+
+.doc-item .doc-item-images {
+  max-width: 180px;
+  padding-left: 7px;
+}
+
