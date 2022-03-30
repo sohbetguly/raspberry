@@ -1,0 +1,176 @@
+.news-content {
+  // padding: 5px;
+  // padding-top: 1px;
+  margin: 0.8rem 0;
+  height: 100%;
+  padding: 1.5rem 0.5rem;
+  p {
+    font-size: 14px;
+  }
+
+  p,
+  .comment {
+    margin: 0;
+  }
+
+  h5 {
+    padding-bottom: 10px;
+  }
+
+  .icon {
+    position: relative;
+    width: 100%;
+    padding-top: 65%;
+    .icon-container {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      padding-bottom: 1rem;
+      img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        aspect-ratio: auto 800 / 400;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+  .titles {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+
+    p {
+      margin-bottom: 0.7rem;
+    }
+  }
+  .adjust-height {
+    height: 55%;
+    min-height: fit-content;
+  }
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100%;
+    .comment-container {
+      margin-top: auto;
+      margin-bottom: 1.8rem;
+      width: 100%;
+      border-top: 2px solid rgb(255, 48, 110);
+      padding-top: 15px;
+      bottom: 5%;
+    }
+  }
+
+  a {
+    position: relative;
+    border-radius: 0.8rem;
+    height: 100%;
+    width: 100%;
+    p {
+      color: black;
+      font-weight: 400;
+    }
+  }
+  a:hover {
+    box-shadow: 0 0 4px 0px black;
+    h5 {
+      text-decoration: underline;
+    }
+  }
+}
+
+.main-content {
+  .news-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    li {
+      display: block;
+      background-color: rgb(57, 57, 167);
+      width: max-content;
+      &:hover {
+        background-color: rgb(37, 37, 143);
+      }
+      a {
+        width: max-content;
+        color: white;
+        padding: 1.8rem;
+      }
+    }
+  }
+}
+
+.archive {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  font-size: 1.3rem;
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+
+  .date {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+  }
+  select {
+    color: rgb(83, 83, 83);
+    padding: 0.3rem 0.5rem;
+    border: 1.5px solid;
+    border-radius: 0.5rem;
+  }
+
+  a {
+    background-color: yellow;
+    border: none;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+    color: rgb(83, 83, 83);
+    transition: 0.3s ease;
+    &:hover {
+      background-color: rgb(61, 61, 61);
+      color: white;
+    }
+  }
+}
+
+.link-container {
+  display: flex;
+  justify-content: flex-start;
+  a {
+    background: linear-gradient(rgb(0, 117, 111), rgb(1, 95, 90));
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    &:hover,
+    &:focus,
+    &:active {
+      color: white;
+    background: linear-gradient(rgb(1, 104, 98), rgb(1, 75, 71));
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-content {
+    .title-container {
+      display: block;
+    }
+  }
+}
