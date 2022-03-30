@@ -1,0 +1,20 @@
+.radius-border {
+  border-radius: 1rem !important;
+}
+
+.reto-read-more {
+  color: #4f60f6;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.radius-border:hover .reto-read-more,
+.radius-border:hover h3 {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 996px) {
+  #playReto {
+    display: none;
+  }
+}

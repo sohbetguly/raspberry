@@ -1,0 +1,4 @@
+.more-container:hover #store,
+.more-container:hover #findoutMore {
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+.img-container-2 {
+}
+
+.text-cont {
+  margin-top: 50%;
+}
+.btn1 {
+  text-align: center;
+  width: 200px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(55, 55, 226);
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+@media screen and (max-width: 770px) {
+ 
+  .pizero-img {
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn1 {
+    width: 80%;
+  }
+  .pizero-img {
+    min-width: 50px;
+  }
+}
